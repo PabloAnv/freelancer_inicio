@@ -5,6 +5,8 @@
     --primario: #FFC107
     --secundario: #0097A7
     --gris: #757575
+
+   
 }
 
 /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
@@ -14,6 +16,7 @@ html {
 
 body {
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo {
