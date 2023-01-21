@@ -31,3 +31,8 @@ body {
 h2{
     font-size: 2rem;
 }
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+}
