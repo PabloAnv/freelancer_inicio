@@ -36,3 +36,11 @@ h2{
     display: flex;
     flex-direction: row;
 }
+
+.navegacion a{
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    background-color: var(--primario);
+}
