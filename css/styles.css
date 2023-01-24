@@ -53,6 +53,9 @@ body {
 
 .navegacion-principal a:hover {
     background-color: var(--primario);
-    padding: 1rem;
     color: var(--oscuro);
+}
+
+@media (min-width: 480px){
+    
 }
