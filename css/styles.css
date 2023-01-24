@@ -33,17 +33,18 @@ body {
 }
 
 .contenedor {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 /**Navegacion**/
 .navegacion-principal {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 .navegacion-principal a {
+    text-align: center;
     color: var(--blanco);
     padding: 1rem;
     text-decoration: none;
@@ -56,6 +57,9 @@ body {
     color: var(--oscuro);
 }
 
-@media (min-width: 480px){
-    
+@media (min-width: 768px) {
+    .navegacion-principal {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
