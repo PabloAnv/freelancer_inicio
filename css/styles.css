@@ -27,14 +27,17 @@ body {
     font-size: 2rem;
 }
 
-.contenedor{
+.contenedor {
     width: 120rem;
     margin: 0 auto;
 }
+
 /**Navegacion**/
-.navegacion-principal{
-    
+.navegacion-principal {}
+
+.navegacion-principal a {
 }
-.nav-bg{
+
+.nav-bg {
     background-color: var(--secundario);
 }
