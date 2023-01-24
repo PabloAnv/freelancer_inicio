@@ -17,6 +17,11 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
+/**Utilidad**/
+.nav-bg {
+    background-color: var(--secundario);
+}
+
 /**CSS**/
 .titulo {
     text-align: center;
@@ -45,7 +50,3 @@ body {
 }
 
 .navegacion-principal a:hover {}
-
-.nav-bg {
-    background-color: var(--secundario);
-}
