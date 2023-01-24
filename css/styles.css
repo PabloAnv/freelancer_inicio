@@ -10,7 +10,12 @@
 /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 body {
     font-size: 16px;
@@ -62,4 +67,17 @@ body {
         flex-direction: row;
         justify-content: space-around;
     }
+}
+
+/**Imagen de fondo**/
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    padding: 2rem;
+}
+
+.contenido-hero{
+
 }
