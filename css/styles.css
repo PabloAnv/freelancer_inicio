@@ -7,16 +7,16 @@
     --gris: #757575;
 }
 
-/**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
+/**Globales**/
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
+    font-size: 62.5%; /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
+    box-sizing: border-box; 
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    box-sizing: inherit; /**Hack para Box Model**/
 }
 
 body {
@@ -24,10 +24,7 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
-/**Utilidad**/
-.nav-bg {
-    background-color: var(--secundario);
-}
+/**Tipografia**/
 
 h1 {
     font-size: 3.8rem;
@@ -48,6 +45,7 @@ h3 {
     text-align: center;
 }
 
+/**Utilidad**/
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
@@ -66,14 +64,18 @@ h3 {
     text-align: center;
 }
 
-/**CSS**/
-
+/**Titulos**/
 h1 span {
     font-size: 2rem;
 }
 
 
 /**Navegacion**/
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
 .navegacion-principal {
     display: flex;
     flex-direction: column;
