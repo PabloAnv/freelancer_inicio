@@ -5,6 +5,7 @@
     --primario: #FFC107;
     --secundario: #0097A7;
     --gris: #757575;
+    --gris-claro: #dfe9f3;
 }
 
 /**Globales**/
@@ -22,6 +23,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gris-claro) 0%, var(--blanco) 100%); /**Degradado**/
 }
 
 /**Tipografia**/
