@@ -10,20 +10,23 @@
 
 /**Globales**/
 html {
-    font-size: 62.5%; /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
-    box-sizing: border-box; 
+    font-size: 62.5%;
+    /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit; /**Hack para Box Model**/
+    box-sizing: inherit;
+    /**Hack para Box Model**/
 }
 
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
-    background-image: linear-gradient(to top, var(--gris-claro) 0%, var(--blanco) 100%); /**Degradado**/
+    background-image: linear-gradient(to top, var(--gris-claro) 0%, var(--blanco) 100%);
+    /**Degradado**/
 }
 
 /**Tipografia**/
@@ -43,7 +46,8 @@ h3 {
 
 h1,
 h2,
-h3 {
+h3,
+footer {
     text-align: center;
 }
 
@@ -70,7 +74,6 @@ h3 {
 h1 span {
     font-size: 2rem;
 }
-
 
 /**Navegacion**/
 
@@ -103,6 +106,7 @@ h1 span {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 
@@ -117,6 +121,14 @@ h1 span {
     align-items: center;
     justify-content: center;
     color: var(--blanco);
+}
+
+/**Servicios**/
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(77, 77, 77, 1);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: .5rem;
 }
 
 /**Media Querys**/
