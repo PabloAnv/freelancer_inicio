@@ -29,6 +29,10 @@ body {
     /**Degradado**/
 }
 
+.completo {
+    width: 100%;
+}
+
 /**Tipografia**/
 
 h1 {
@@ -51,7 +55,7 @@ footer {
     text-align: center;
 }
 
-/**Utilidad**/
+/** Global**/
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
@@ -68,6 +72,17 @@ footer {
     text-transform: uppercase;
     width: 90%;
     text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+/**Utilidad**/
+
+.ancho100 {
+    width: 100%;
 }
 
 /**Titulos**/
@@ -131,23 +146,23 @@ h1 span {
     border-radius: .5rem;
 }
 
-.servicio{
+.servicio {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.servicio h3{
+.servicio h3 {
     color: var(--secundario);
     font-weight: bold;
 }
 
-.servicio p{
+.servicio p {
     line-height: 2;
     text-align: center;
 }
 
-.iconos{
+.iconos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +174,7 @@ h1 span {
 
 /**Formulario**/
 
-.formulario{
+.formulario {
     background-color: var(--gris);
     width: min(60rem, 100%);
     margin: 0 auto;
@@ -167,11 +182,11 @@ h1 span {
     border-radius: 1rem;
 }
 
-.formulario fieldset{
+.formulario fieldset {
     border: none;
 }
 
-.formulario legend{
+.formulario legend {
     color: var(--primario);
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -180,8 +195,29 @@ h1 span {
     text-align: center;
 }
 
-.contenedor-campos{
+.contenedor-campos {
     display: grid;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="tel"],
+.campo input[type="email"],
+.campo textarea {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
 }
 
 /**Media Querys**/
