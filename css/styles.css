@@ -131,6 +131,32 @@ h1 span {
     border-radius: .5rem;
 }
 
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: bold;
+}
+
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+}
+
 /**Media Querys**/
 @media (min-width: 768px) {
     .navegacion-principal {
