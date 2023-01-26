@@ -141,4 +141,11 @@ h1 span {
     .boton {
         width: auto;
     }
+
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
 }
