@@ -13,6 +13,7 @@ html {
     font-size: 62.5%;
     /**REMS Es para que se saque el 62.5% de 16 px de la fuente de escritura y de esa manera un rem sea equivalente a 10 px**/
     box-sizing: border-box;
+    scroll-snap-type: y proximity;
 }
 
 *,
@@ -219,6 +220,15 @@ h1 span {
 
 .campo textarea {
     height: 16.5rem;
+}
+
+/**Snaps**/
+
+.servicios,
+.navegacion-principal
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /**Media Querys**/
